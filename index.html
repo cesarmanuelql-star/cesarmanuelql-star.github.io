@@ -62,22 +62,24 @@ body {
 
 /* NOMBRE */
 
+/* NOMBRE */
+
 h1 {
   color: #ffffff;
-  font-size: clamp(27px, 5vw, 43px);
-  line-height: 1.2;
+  font-size: clamp(24px, 5vw, 40px);
+  line-height: 1.1;
   font-weight: 700;
-  margin: 0 0 6px;
+  margin: 0 0 2px;
 }
 
 /* CARGO */
 
 .cargo {
   color: #ffffff;
-  font-size: clamp(15px, 2.5vw, 18px);
+  font-size: clamp(14px, 2.5vw, 18px);
   font-weight: 700;
-  line-height: 1.4;
-  margin: 0 0 4px;
+  line-height: 1.2;
+  margin: 0 0 2px;
   white-space: nowrap;
 }
 
@@ -86,17 +88,27 @@ h1 {
 .areas {
   color: #f1f1f1;
   max-width: 570px;
-  font-size: clamp(13px, 2vw, 16px);
+  font-size: clamp(12.5px, 2vw, 15px);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.35;
 }
 
+  /* LÍNEA DIVISORIA */
+.divisor {
+  width: 100%;
+  max-width: 420px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 22px auto 0;
+  border: 0;
+}
+  
 /* REDES SOCIALES */
 
 .redes {
   width: 100%;
   margin-top: auto;
-  padding-top: 85px;
+  padding-top: 25px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-items: center;
@@ -300,7 +312,9 @@ h1 {
       Transformación Digital
     </div>
   </header>
-
+  
+<hr class="divisor">
+  
   <!-- REDES SOCIALES -->
 
   <main class="redes" aria-label="Redes sociales y contacto">
